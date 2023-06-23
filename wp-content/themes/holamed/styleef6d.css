@@ -870,7 +870,7 @@ nav.navbar #navbar.navbar-desktop ul.navbar-nav {
 }
 nav.navbar #navbar.navbar-desktop ul.navbar-nav li,
 nav.navbar #navbar.navbar-desktop ul.navbar-nav a {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: bold;
   transition: none;
   padding: 6px 0 0px;
@@ -1664,7 +1664,7 @@ nav.navbar #navbar.navbar-mobile .toggle-wrap .logo {
 }
 nav.navbar #navbar.navbar-mobile .toggle-wrap .logo img {
   margin-top: 5px;
-  max-height: 60px;
+  max-height: 85px;
   width: auto;
 }
 nav.navbar #navbar.navbar-mobile .toggle-wrap .navbar-toggle {
@@ -1713,7 +1713,7 @@ nav.navbar #navbar.navbar-mobile ul.navbar-nav > li.show-child ul {
   display: block !important;
 }
 nav.navbar #navbar.navbar-mobile ul.navbar-nav > li > a {
-  font-size: 18px;
+  font-size: 24px;
   padding: 18px 40px 18px 30px;
   color: #fff;
   color: var(--white);
@@ -3113,14 +3113,14 @@ nav.navbar.affix {
 .ltx-topbar-block .ltx-block-icon.ltx-icon-h-right .header {
   padding: 0;
   margin: 0 !important;
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Lora', sans-serif;
   font-family: var(--font-main), sans-serif;
   font-weight: 400 !important;
 }
 .ltx-topbar-block .ltx-block-icon.ltx-icon-h-right .header span {
-  color: #009fe3;
-  color: var(--main-darker);
+  /* color: #009fe3;
+  color: var(--main-darker); */
 }
 .ltx-topbar-block .ltx-navbar-icons {
   overflow: hidden;
@@ -3473,14 +3473,14 @@ html,
 body,
 div,
 table {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.6em;
   font-family: 'Lora', sans-serif;
   font-family: var(--font-main), sans-serif;
 }
 body {
   color: rgba(45, 54, 99, 0.75);
-  color: var(--black-text);
+  color: var(--black);
   background-color: #fff;
   background-color: var(--white);
 }
@@ -5952,7 +5952,7 @@ body.error404 .page-404-default .ltx-empty-space {
 .footer-widget-area div,
 .footer-widget-area p {
   line-height: 1.6em;
-  font-size: 14px;
+  font-size: 18px;
 }
 .footer-widget-area .ltx-social {
   margin-top: 40px;
@@ -5996,10 +5996,10 @@ body.error404 .page-404-default .ltx-empty-space {
   text-transform: none;
   margin: 0px !important;
   padding: 10px 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 .footer-widget-area .social-icons-list .fa {
-  font-size: 12px;
+  font-size: 16px;
   position: relative;
   text-align: center;
   -webkit-transition: all 0.3s ease;
@@ -6024,7 +6024,8 @@ body.error404 .page-404-default .ltx-empty-space {
 .footer-widget-area .social-icons-list strong {
   color: #009fe3;
   color: var(--main);
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 18px;
 }
 .footer-widget-area .social-icons-list a:hover {
   color: #009fe3;
@@ -6111,7 +6112,7 @@ body.error404 .page-404-default .ltx-empty-space {
 .footer-widget-area .widget_ltx_navmenu ul li a,
 .footer-widget-area .widget_nav_menu ul li a {
   display: block;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
   padding: 0 0 16px 0;
 }
@@ -6245,7 +6246,7 @@ body.error404 .page-404-default .ltx-empty-space {
 }
 .footer-widget-area .widget_text p {
   color: rgba(255, 255, 255, 0.75);
-  font-size: 16px;
+  font-size: 19px;
 }
 @media (min-width: 992px) {
   .footer-widget-area .widget_text p {
@@ -6350,7 +6351,7 @@ body.error404 .page-404-default .ltx-empty-space {
   padding: 40px 0;
 }
 .copyright-block div {
-  font-size: 14px;
+  font-size: 18px;
 }
 .copyright-block p {
   margin-bottom: 0;
@@ -10564,7 +10565,7 @@ input[type="submit"],
   font-family: 'Niramit', serif;
   font-family: var(--font-headers), serif;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 20px;
   padding: 12px 30px 12px 34px;
   margin-bottom: 25px;
   min-width: 170px;
@@ -10580,7 +10581,7 @@ input[type="submit"],
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   color: #404040;
-  color: var(--black);
+  color: #fff;
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -11570,7 +11571,7 @@ div.wpcf7-acceptance-missing {
 .ltx-block-icon.layout-inline .header span {
   color: #009fe3;
   color: var(--main);
-  font-size: 14px;
+  font-size: 16px;
 }
 .ltx-block-icon.layout-inline li {
   display: inline-block;
@@ -16059,7 +16060,7 @@ img.parallax-float {
 */
 .bg-color-theme_color {
   color: #404040;
-  color: var(--black);
+  color: var(--white);
 }
 .bg-color-theme_color.vc_row-fluid,
 .bg-color-theme_color.vc_section {
@@ -16219,7 +16220,6 @@ a.anchor {
 }
 img {
   height: auto;
-  max-width: 100%;
   vertical-align: middle;
 }
 .like-parallax {

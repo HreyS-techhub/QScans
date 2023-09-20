@@ -579,6 +579,7 @@
 }
 .ion-call-outline:before {
   content: "\e9b8";
+  color: #dc2932;
 }
 .ion-call-sharp:before {
   content: "\e9b9";
@@ -888,6 +889,7 @@
 }
 .ion-chevron-up-sharp:before {
   content: "\ea1f";
+  color:white;
 }
 .ion-clipboard:before {
   content: "\ea20";
@@ -1956,6 +1958,7 @@
 }
 .ion-location-outline:before {
   content: "\eb83";
+  color: #dc2932;
 }
 .ion-location-sharp:before {
   content: "\eb84";
@@ -2010,6 +2013,7 @@
 }
 .ion-logo-bitcoin:before {
   content: "\eb95";
+  color: #dc2932;
 }
 .ion-logo-buffer:before {
   content: "\eb96";
@@ -2235,6 +2239,7 @@
 }
 .ion-mail-outline:before {
   content: "\ebe0";
+  color: #dc2932;
 }
 .ion-mail-sharp:before {
   content: "\ebe1";
@@ -3192,6 +3197,7 @@
 }
 .ion-shield-checkmark-outline:before {
   content: "\ed1f";
+  color: #dc2932;
 }
 .ion-shield-checkmark-sharp:before {
   content: "\ed20";
@@ -3414,6 +3420,8 @@
 }
 .ion-thermometer-outline:before {
   content: "\ed69";
+  color: #dc2932;
+  
 }
 .ion-thermometer-sharp:before {
   content: "\ed6a";

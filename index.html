@@ -24,7 +24,10 @@
     
     <!-- Medical Icons -->
     <link href="css/medwise-icons.css" type="text/css" rel="stylesheet">
-    
+
+    <!-- AOS animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Stylesheets --> 
     <link href="css/vendors.min.css" type="text/css" rel="stylesheet">
     <link href="css/style.min.css" type="text/css" rel="stylesheet" id="style">
@@ -52,6 +55,8 @@
 
 <body>
 
+ 
+
     <div class="loader-backdrop">           <!-- Loader -->
         <div class="loader">
             <i class="ion-heart-outline"></i>
@@ -63,8 +68,8 @@
             <div class="container-lg">
                 <div class="row no-gutters">
                     <div class="col-md-12">
-                        <div class="topbar-items">
-                            <ul class="topbar-social d-none d-lg-inline-flex">
+                        <div class="topbar-items" data-aos="fade-down">
+                            <ul class="topbar-social d-none d-lg-inline-flex" >
                                 <li><a class="instagram" href="https://www.instagram.com/qscans_erode" target="_blank"><i class="ion-logo-instagram"></i></a></li>
                                 <li><a class="facebook" href="https://www.facebook.com/qscans.erode" target="_blank"><i class="ion-logo-facebook"></i></a></li>
                                 <li><a class="whatsapp" href="https://wa.me/9384154069" target="_blank"><i class="ion-logo-whatsapp"></i></a></li>
@@ -86,10 +91,13 @@
         </div>
 
         <nav class="navbar navbar-expand-lg sticky-nav">         <!-- Navigation Bar -->
-            <div class="container">            
-                <a class="navbar-brand" href="index-hospital-classic.html">
+            <div class="container">  
+                          
+                <a  data-aos="fade-right"
+                data-aos-duration="2000"class="navbar-brand" href="./index.html">
                     <img src="images/qscans-logo.png" alt="" class="logo">         <!-- Replace with your Logo -->
                 </a>
+           
 
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#main-navigation">
                     <span class="navbar-toggler-icon">          <!-- Mobile Menu Toggle -->
@@ -99,7 +107,8 @@
                     </span>
                 </button>
 
-                <div class="navbar-collapse collapse" id="main-navigation">         <!-- Main Menu -->
+                <div  data-aos="fade-left"
+                data-aos-duration="2000" class="navbar-collapse collapse" id="main-navigation">         <!-- Main Menu -->
                     <ul class="navbar-nav">
                         <li class="nav-item has-menu"><a href="index.html">Home</a></li>
                         <li class="nav-item has-menu"><a href="about-us.html">About</a></li>
@@ -301,9 +310,9 @@
         </div>
     </div>
 
-    <div class="container mt-80">
+    <div class="container mt-80  card-box" >
         <div class="row">
-            <div class="col-lg-7 pr-40">
+            <div class="col-lg-7 pr-40 ">
                 <h3 class="heading font-bold mb-10">Our Way of Doing</h3>
                 <p class="text-primary h6 font-semi-bold mb-30">Your Wellbeing is Our Priority</p>
                 <div class="tabs-2">
@@ -343,7 +352,7 @@
         </div>
     </div>
 
-    <div class="container mt-60" style="margin-bottom: 6%;">
+    <div class="container mt-60 card-box" style="margin-bottom: 6%;">
         <div class="row align-items-center">
             <div class="col-lg-5 mt-20">
                 <img src="images/694-670-1.png" class="img-fluid" alt="">
@@ -528,10 +537,10 @@
     </div>
 
     
-    <div class="container mt-80">
+    <div  class="container mt-80">
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <div class="heading-block">
+                <div  class="heading-block">
                     <h3 class="heading font-bold text-lh-4">Our Experienced Doctors</h3>
                     <p class="sub-heading">Highly skilled team of scan doctors, equipped with extensive expertise in advanced imaging techniques</p>
                 </div>
@@ -661,9 +670,9 @@
                     <p class="h6 d-flex align-items-top text-white"><i class="ion-location-outline icon-left text-light"></i>Natesar Mill Compound, Perundurai Road <br>Erode - 638 011</p>
                     <p class="h6 d-flex align-items-center text-white"><i class="ion-call-outline icon-left text-light"></i>0424 - 4562222</p>
                     <ul class="social social-2x d-inline-flex mt-20">
-                        <li><a class="instagram" href="https://www.instagram.com/qscans_erode" target="_blank"><i class="ion-logo-instagram"></i></a></li>
-                        <li><a class="facebook" href="https://www.facebook.com/qscans.erode" target="_blank"><i class="ion-logo-facebook"></i></a></li>
-                        <li><a class="whatsapp" href="https://wa.me/9384154069" target="_blank"><i class="ion-logo-whatsapp"></i></a></li>
+                                <li><a class="instagram in1" style="background-color: #fff;color: black;" href="https://www.instagram.com/qscans_erode" target="_blank"><i class="ion-logo-instagram"></i></a></li>
+                                <li><a class="facebook fb11" style="background-color: #fff;color: black;" href="https://www.facebook.com/qscans.erode" target="_blank"><i class="ion-logo-facebook"></i></a></li>
+                                <li><a class="whatsapp wp11" style="background-color: #fff;color: black;" href="https://wa.me/0424-4562222" target="_blank"><i class="ion-logo-whatsapp"></i></a></li>
                     </ul>
                 </div>
                 <div class="col-lg-6 mt-20 pl-lg-30">
@@ -678,7 +687,7 @@
                         <div class="input-group mt-20">
                             <textarea class="form-control style-2" style="height: 70px" placeholder="Your message"></textarea>
                         </div>
-                        <button class="btn btn-primary btn-lg mt-30">Book Now</button>
+                        <button class="btn btn-primary btn-lg mt-30">Contact Us</button>
                     </form>
                 </div>
             </div>
@@ -716,9 +725,9 @@
                         <div class="widget widget-timings">            <!-- Widget -->
                             <h5 class="heading font-bold">Social Connect</h5>
                             <ul class="social social-round social-2x">
-                                <li><a class="instagram" href="https://www.instagram.com/qscans_erode" target="_blank"><i class="ion-logo-instagram"></i></a></li>
-                                <li><a class="facebook" href="https://www.facebook.com/qscans.erode" target="_blank"><i class="ion-logo-facebook"></i></a></li>
-                                <li><a class="whatsapp" href="https://wa.me/9384154069" target="_blank"><i class="ion-logo-whatsapp"></i></a></li>
+                                <li><a class="instagram in1" style="background-color: #fff;color: black;" href="https://www.instagram.com/qscans_erode" target="_blank"><i class="ion-logo-instagram"></i></a></li>
+                                <li><a class="facebook fb11" style="background-color: #fff;color: black;" href="https://www.facebook.com/qscans.erode" target="_blank"><i class="ion-logo-facebook"></i></a></li>
+                                <li><a class="whatsapp wp11" style="background-color: #fff;color: black;" href="https://wa.me/0424-4562222" target="_blank"><i class="ion-logo-whatsapp"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -789,6 +798,12 @@
 
     <!-- Custom JS -->
     <script src="js/script.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 

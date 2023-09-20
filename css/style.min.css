@@ -1819,6 +1819,19 @@ p>.icon-left, p>.icon-right {
     font-size: 1.875rem
 }
 
+/*  Card Box Our Way OF Doing */
+
+.card-box {
+    /* border: 1px solid black; */
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 7px;
+    box-shadow: #64676d 3px 3px 10px -1px;
+ 
+    
+
+}
+
 .department-box-1 {
     position: relative;
     overflow: hidden;
@@ -2431,12 +2444,12 @@ p>.icon-left, p>.icon-right {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    color: #427cc5;
+    color: #dc2932;
     font-size: 1.5rem;
     height: 2.75rem;
     width: 2.75rem;
     flex-shrink: 0;
-    border: 2px solid #427cc5;
+    border: 2px solid  #dc2932;
     border-radius: 50%;
     margin-right: 1.5rem
 }
@@ -2531,7 +2544,7 @@ p>.icon-left, p>.icon-right {
 .counter-box-1 .fact-number {
     font-family: Manrope, san-serif;
     font-size: 3.125rem;
-    color: #427cc5;
+    color: #dc2932;
     font-weight: 800;
     border-radius: 50%;
     margin-bottom: .313rem
@@ -3043,9 +3056,21 @@ p>.icon-left, p>.icon-right {
 }
 
 .social li a.instagram {
-    background-color: #f90382
+    background-color: #f90382;
+    }
+/* 
+.in1:hover{
+    background:linear-gradient(  #6228d7, #ee2a7b ,#f9ce34 ) ;
+    color: #fff;
 }
-
+.fb11:hover{
+    background:#3b5998 ;
+    color: #fff;
+}
+.wp11:hover{
+    background:#25d366 ;
+    color: #fff;
+} */
 .social li a.dribbble {
     background-color: #ea4c89
 }
@@ -3151,7 +3176,9 @@ p>.icon-left, p>.icon-right {
 }
 
 .gmap {
-    height: 500px
+    height: 500px;
+
+
 }
 
 .info-window {
@@ -3198,7 +3225,7 @@ p>.icon-left, p>.icon-right {
     bottom: -3.4375rem;
     height: 3.125rem;
     width: 3.125rem;
-    background-color: #427cc5;
+    background-color: #dc2932;
     color: #d6e1ef;
     line-height: 3.125rem;
     text-align: center;
@@ -3211,7 +3238,7 @@ p>.icon-left, p>.icon-right {
 }
 
 #back.visible {
-    bottom: 0
+    bottom: 0;
 }
 
 footer .logo-footer {

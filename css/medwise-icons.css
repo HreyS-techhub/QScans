@@ -50,6 +50,7 @@
 }
 .mw-bone-joint:before {
 	content: "\e908";
+	color: #dc2932;
 }
 .mw-brain:before {
 	content: "\e909";
@@ -107,6 +108,7 @@
 }
 .mw-female-appointment:before {
 	content: "\e91b";
+	color: #dc2932;
 }
 .mw-female-fetus:before {
 	content: "\e91c";
@@ -251,6 +253,7 @@
 }
 .mw-pregnant:before {
 	content: "\e94b";
+	color: #dc2932;
 }
 .mw-pulse:before {
 	content: "\e94c";
@@ -284,12 +287,14 @@
 }
 .mw-stomach:before {
 	content: "\e956";
+	color: #dc2932;
 }
 .mw-stopwatch:before {
 	content: "\e957";
 }
 .mw-stretcher:before {
 	content: "\e958";
+	color: #dc2932;
 }
 .mw-stroller:before {
 	content: "\e959";
@@ -335,6 +340,7 @@
 }
 .mw-ultrasound:before {
 	content: "\e967";
+	color: #dc2932;
 }
 .mw-uterus:before {
 	content: "\e968";

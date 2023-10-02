@@ -38,8 +38,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&amp;family=Manrope:wght@300;400;600;800&amp;family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79657248-2"></script>
+
+    
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -134,7 +134,7 @@
                     </div>
                     <h4 class="heading font-bold mt-10 mb-10">MRI Scanning</h4>
                     <p class="mb-20 text-lh-7 text-muted">Experience world-class MRI scanning at its finest.</p>
-                    <a href="contact-us.html" class="link-secondary font-2">Get details..</a>
+                    <a href="Contact(submit).html" class="link-secondary font-2">Get details..</a>
                 </div>
             </div>
             <div class="col-lg-4 mt-20">
@@ -144,7 +144,7 @@
                     </div>
                     <h4 class="heading font-bold mt-10 mb-10">USG/CT Guided Biopsy</h4>
                     <p class="mb-20 text-lh-7 text-muted">Precision-guided biopsies with advanced USG/CT technology</p>
-                    <a href="contact-us.html" class="link-secondary font-2">Get details..</a>
+                    <a href="Contact(submit).html" class="link-secondary font-2">Get details..</a>
                 </div>
             </div>
             <div class="col-lg-4 mt-20">
@@ -154,7 +154,7 @@
                     </div>
                     <h4 class="heading font-bold mt-10 mb-10">Obstetrics/Pregnancy Scan</h4>
                     <p class="mb-20 text-lh-7 text-muted">Comprehensive obstetrics and pregnancy scans for your peace of mind</p>
-                    <a href="contact-us.html" class="link-secondary font-2">Get details..</a>
+                    <a href="Contact(submit).html" class="link-secondary font-2">Get details..</a>
                 </div>
             </div>
             <div class="col-lg-4 mt-20">
@@ -164,7 +164,7 @@
                     </div>
                     <h4 class="baby-">3D/4D/5D ULTRA SOUND</h4>
                     <p class="mb-20 text-lh-7 text-muted">Experience the magic of 3D, 4D, and 5D ultrasound imaging</p>
-                    <a href="contact-us.html" class="link-secondary font-2">Get details..</a>
+                    <a href="Contact(submit).html" class="link-secondary font-2">Get details..</a>
                 </div>
             </div>
             <div class="col-lg-4 mt-20">
@@ -174,7 +174,7 @@
                     </div>
                     <h4 class="heading font-bold mt-10 mb-10">BMD/DEXA SCAN</h4>
                     <p class="mb-20 text-lh-7 text-muted">Accurate bone density assessment through BMD/DEXA scans</p>
-                    <a href="contact-us.html" class="link-secondary font-2">Get details..</a>
+                    <a href="Contact(submit).html" class="link-secondary font-2">Get details..</a>
                 </div>
             </div>
             <div class="col-lg-4 mt-20">
@@ -184,7 +184,7 @@
                     </div>
                     <h4 class="heading font-bold mt-10 mb-10">Digital Mammography</h4>
                     <p class="mb-20 text-lh-7 text-muted">Advanced digital mammography for early breast health detection</p>
-                    <a href="contact-us.html" class="link-secondary font-2">Get details..</a>
+                    <a href="Contact(submit).html" class="link-secondary font-2">Get details..</a>
                 </div>
             </div>
         </div>
@@ -206,17 +206,18 @@
                 </div>
                 <div class="col-lg-6 mt-20 pl-lg-30">
                     <h3 class="heading text-white font-bold">Send Message</h3>
-                    <form>
+                    <form id="footer-contact-form">
                         <div class="input-group">
-                            <input type="text" class="form-control style-2" name="fullName" placeholder="Your name">
+                            <input type="text" class="form-control style-2" id="f-fname" placeholder="Your name">
                         </div>
                         <div class="input-group mt-20">
-                            <input type="text" class="form-control style-2" name="phoneNum" placeholder="Phone No.">
+                            <input type="text" class="form-control style-2" id="f-email" placeholder="Email address">
                         </div>
                         <div class="input-group mt-20">
-                            <textarea class="form-control style-2" style="height: 70px" placeholder="Your message"></textarea>
+                            <textarea class="form-control style-2" style="height: 70px"
+                                placeholder="Your message" id="f-message"></textarea>
                         </div>
-                        <button class="btn btn-primary btn-lg mt-30">Contact Us</button>
+                        <button class="btn btn-primary btn-lg mt-30" id="footer-form-submit">Submit Query</button>
                     </form>
                 </div>
             </div>
@@ -280,6 +281,9 @@
     <!-- JQuery Version 3.6.0 -->
     <script src="js/jquery.min.js"></script>
     
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/firebase.js"></script>
+
     <!-- Bootstrap Version 4.5.3 -->
     <script src="js/bootstrap.bundle.min.js"></script>
 

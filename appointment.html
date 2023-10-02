@@ -41,12 +41,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&amp;family=Manrope:wght@300;400;600;800&amp;family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
         rel="stylesheet">
-
-    
-    
-
 </head>
-
 <body>
 
     <div class="loader-backdrop"> <!-- Loader -->
@@ -121,90 +116,125 @@
     <div class="page-header"> <!-- Page Header -->
     </div>
 
-    <div class="container mt-80">
+    <div class="container mt-80 mb-60">
         <div class="row">
-            <div class="col-lg-5 bg-light p-40">
-                <h3 class="heading font-bold mb-40">Get in Touch</h3>
-                <div class="contact-icon">
-                    <div class="con-icon">
-                        <i class="ion-location-outline"></i>
-                    </div>
-                    <div class="con-body">
-                        <h5 class="heading font-bold d-flex align-items-center mb-10">Address</h5>
-                        <p class="mb-0 h6">Natesar Mill Compound, Perundurai Road
-                            Erode - 638 011</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="contact-icon">
-                    <div class="con-icon">
-                        <i class="ion-call-outline"></i>
-                    </div>
-                    <div class="con-body">
-                        <h5 class="heading font-bold d-flex align-items-center mb-10">Helpline</h5>
-                        <p class="mb-0 h6">0424-4562222</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="contact-icon">
-                    <div class="con-icon">
-                        <i class="ion-mail-outline"></i>
-                    </div>
-                    <div class="con-body">
-                        <h5 class="heading font-bold d-flex align-items-center mb-10">Email</h5>
-                        <p class="mb-0 h6">qscans@gmail.com</p>
-                    </div>
-                </div>
-                <p class="mb-0 h6 mt-50 text-muted">For online appointment and hassle free consultation, <br> <a
-                        href="appointment.html">book your appointment now</a></p>
+            <div class="col-lg-12" style="text-align: center;">
+                <h3 class="heading font-bold mb-20">Appointment Form</h3>
+                <p class="mb-30">Schedule Your Appointment At A Convenient Time</p>
             </div>
-            <div class="col-lg-7 p-40 border border-lg-left-0"
-                style="background-image: url(images/world-map-1.png); background-repeat: no-repeat; background-position: 95% 4%">
-                <h3 class="heading font-bold mb-20">Contact Form</h3>
-                <p class="h6 mb-50 text-muted">Drop your query here</p>
-                <form id="main-contact-form">
-                    <div class="form-group">
-                        <input class="form-control" type="text" placeholder="Full name" id="fname" name="fname" required>
+            <form id="appointment-form">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <input class="form-control" type="text" id="a-fname" placeholder="Your First Name">
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <input class="form-control" type="text" placeholder="Email address" id="email" name="email" required>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <input class="form-control" type="text" id="a-lname" placeholder="Your Last Name">
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <textarea class="form-control" rows="5" placeholder="Please enter your message" id="message"
-                            name="message" required></textarea>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="form-group">
+                            <input class="form-control" type="text" id="a-address" placeholder="Full Address">
+                        </div>
                     </div>
-                    <button class="btn btn-primary" id="formSubmit">Submit Query</button>
-                </form>
-            </div>
+                    <div class="col-lg-4">
+                        <div class="form-group">
+                            <input class="form-control" type="text" id="a-city" placeholder="City">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <input class="form-control" type="text" id="a-number" placeholder="Your Phone Number">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <input class="form-control" type="text" id="a-email" placeholder="Your Email ID">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6" style="padding: 1rem 1rem 1rem 3rem;" >
+                        <label>Select Gender : </label>
+                        <div class="custom-control custom-radio custom-control-inline ml-20">
+                            <input type="radio" id="genderRadio1" name="genderRadio" class="custom-control-input" value="Male">
+                            <label class="custom-control-label" for="genderRadio1">Male</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="genderRadio2" name="genderRadio" class="custom-control-input" value="Female">
+                            <label class="custom-control-label" for="genderRadio2">Female</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <select class="form-control" id="a-age" tabindex="-98">
+                                <option>Age</option>
+                                <option >&lt;18</option>
+                                <option >18-40</option>
+                                <option>41-60</option>
+                                <option>61+</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <fieldset>
+                            <legend>Allergies, If Any</legend>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" id="a-allergy" placeholder="Allergies"></textarea>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="col-lg-6">
+                        <fieldset>
+                            <legend>Services Needed</legend>
+                            <div class="form-group mb-0" id="checkbox-section">
+                                <div class="custom-control custom-checkbox mb-10">
+                                    <input type="checkbox" class="custom-control-input" id="disease1" value="MRI Scanning">
+                                    <label class="custom-control-label" for="disease1">MRI Scanning</label>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-10">
+                                    <input type="checkbox" class="custom-control-input" id="disease2" value="USG/CT Guided Biopsy">
+                                    <label class="custom-control-label" for="disease2">USG/CT Guided Biopsy</label>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-10">
+                                    <input type="checkbox" class="custom-control-input" id="disease3" value="Obstetrics/Pregnancy Scan">
+                                    <label class="custom-control-label" for="disease3">Obstetrics/Pregnancy Scan</label>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-10">
+                                    <input type="checkbox" class="custom-control-input" id="disease4" value="3D/4D/5D ULTRA SOUND">
+                                    <label class="custom-control-label" for="disease4">3D/4D/5D ULTRA SOUND</label>
+                                </div>
+                                <div class="custom-control custom-checkbox mb-10">
+                                    <input type="checkbox" class="custom-control-input" id="disease5" value="BMD/DEXA SCAN">
+                                    <label class="custom-control-label" for="disease5">BMD/DEXA SCAN</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" value="Digital Mammography">
+                                    <label class="custom-control-label" for="disease6">Digital Mammography</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" id="a-message" placeholder="Special Message"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" id="appoint-submit-button" type="submit"><i class="ion-paper-plane-outline icon-left"></i> Book Appointment</button>
+                </div>
+            </form>
         </div>
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3911.940586956417!2d77.71169907423007!3d11.339050348565701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96f3c7d35d315%3A0x5e74d7cb6679f0a0!2sQscans!5e0!3m2!1sen!2sin!4v1694433576994!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-   
-    <!-- <div class="container-fluid mt-80 p-0">
-        <div class="row no-gutters">
-            <div class="col-lg-12">
-                Replace Latitude, Logitude and Info Window as per your place
-                <div class="gmap" id="gmap"data-lat="11.339060" data-long="77.714270"
-                    data-info-win="
-                    <div class='info-window'>
-                        <div class='info-head'>
-                            <img src='images/map-pin-img.jpg' class='img-fluid' alt=''>
-                        </div>
-                        <div class='info-body'>
-                            <h5 class='font-bold heading'>Medwise Hospital</h5>
-                            <p class='info-text normal mb-0 d-flex align-items-top'>
-                                <i class='ion-location text-muted icon-left'>
-                                </i>5th Floor, Times Square, <br/> New York - 12435</p>
-                                <p class='mb-0 info-text d-flex align-items-center normal'>
-                                    <i class='ion-call text-muted icon-left'>
-                                    </i>1800-456-2433</p>
-                                </div></div>">
-                </div>
-                
-            </div>
-        </div>
-    </div> -->
     <footer class="footer-2"> <!-- Footer Style 2 -->
         <div class="footer-pri"> <!-- Primary Footer -->
             <div class="container">

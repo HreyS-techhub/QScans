@@ -38,8 +38,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&amp;family=Manrope:wght@300;400;600;800&amp;family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79657248-2"></script>
+
+    
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -87,7 +87,7 @@
         <nav class="navbar navbar-expand-lg sticky-nav">         <!-- Navigation Bar -->
             <div class="container">            
                 <a  data-aos="fade-right"
-                data-aos-duration="2000" class="navbar-brand" href="index-hospital-classic.html">
+                data-aos-duration="2000" class="navbar-brand" href="index.html">
                     <img src="images/qscans-logo.png" alt="" class="logo">         <!-- Replace with your Logo -->
                 </a>
 
@@ -267,17 +267,18 @@
                 </div>
                 <div class="col-lg-6 mt-20 pl-lg-30">
                     <h3 class="heading text-white font-bold">Send Message</h3>
-                    <form>
+                    <form id="footer-contact-form">
                         <div class="input-group">
-                            <input type="text" class="form-control style-2" name="fullName" placeholder="Your name">
+                            <input type="text" class="form-control style-2" id="f-fname" placeholder="Your name">
                         </div>
                         <div class="input-group mt-20">
-                            <input type="text" class="form-control style-2" name="phoneNum" placeholder="Phone No.">
+                            <input type="text" class="form-control style-2" id="f-email" placeholder="Email address">
                         </div>
                         <div class="input-group mt-20">
-                            <textarea class="form-control style-2" style="height: 70px" placeholder="Your message"></textarea>
+                            <textarea class="form-control style-2" style="height: 70px"
+                                placeholder="Your message" id="f-message"></textarea>
                         </div>
-                        <button class="btn btn-primary btn-lg mt-30">Contact Us</button>
+                        <button class="btn btn-primary btn-lg mt-30" id="footer-form-submit">Submit Query</button>
                     </form>
                 </div>
             </div>
@@ -290,7 +291,7 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="widget widget-about" style="margin-top: 0px;">           <!-- Widget -->
-                            <a href="index-hospital-classic.html">
+                            <a href="index.html">
                                 <img src="images/qscans-logo.png" class="logo-footer" alt="">
                             </a>
                             <p class="mt-20 footer-text">To put the patient first, improve the health of the people by offering high quality care, accurate results and seamless services</p>
@@ -340,6 +341,9 @@
 
     <!-- JQuery Version 3.6.0 -->
     <script src="js/jquery.min.js"></script>
+
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/firebase.js"></script>
 
     <!-- Bootstrap Version 4.5.3 -->
     <script src="js/bootstrap.bundle.min.js"></script>

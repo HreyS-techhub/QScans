@@ -21,7 +21,6 @@ export async function insertQueryData(name,email,message){
     await get(child(ref(database),'Registrations/NoOfQueries'))
     .then(async(data)=>{
         if(data.exists()){
-            console.log(data.val());
             let key=data.val();
 
             await set(ref(database,'Queries/'+key),{
@@ -50,7 +49,6 @@ export async function insertAppointmentData(){
     await get(child(ref(database),'Registrations/NoOfAppointments'))
     .then(async (data)=>{
         if(data.exists()){
-            console.log(data.val());
             let key=data.val();
             const fname = $("#a-fname").val();
             const lname = $("#a-lname").val();
@@ -68,7 +66,6 @@ export async function insertAppointmentData(){
             const services = selectedServices.join(', ');
             const message = $("#a-message").val();
 
-            console.log(services);
             await set(ref(database,'Appointments/'+key),{
                 FirstName: fname,
                 LastName: lname,

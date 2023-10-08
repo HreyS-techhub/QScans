@@ -127,7 +127,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <input class="form-control" type="text" id="a-fname" placeholder="Your First Name">
+                            <input class="form-control" type="text" id="a-fname" placeholder="Your First Name" required>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -139,32 +139,32 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="form-group">
-                            <input class="form-control" type="text" id="a-address" placeholder="Full Address">
+                            <input class="form-control" type="text" id="a-address" placeholder="Full Address" required>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="form-group">
-                            <input class="form-control" type="text" id="a-city" placeholder="City">
+                            <input class="form-control" type="text" id="a-city" placeholder="City" required>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <input class="form-control" type="text" id="a-number" placeholder="Your Phone Number">
+                            <input class="form-control" type="text" id="a-number" placeholder="Your Phone Number" required>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="form-group">
-                            <input class="form-control" type="text" id="a-email" placeholder="Your Email ID">
+                            <input class="form-control" type="text" id="a-email" placeholder="Your Email ID" required>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6" style="padding: 1rem 1rem 1rem 3rem;" >
+                    <div class="col-lg-5" style="padding: 1rem 1rem 1rem 3rem;" >
                         <label>Select Gender : </label>
                         <div class="custom-control custom-radio custom-control-inline ml-20">
-                            <input type="radio" id="genderRadio1" name="genderRadio" class="custom-control-input" value="Male">
+                            <input type="radio" id="genderRadio1" name="genderRadio" class="custom-control-input" value="Male" checked>
                             <label class="custom-control-label" for="genderRadio1">Male</label>
                         </div>
                         <div class="custom-control custom-radio custom-control-inline">
@@ -172,12 +172,12 @@
                             <label class="custom-control-label" for="genderRadio2">Female</label>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="form-group">
+                    <div class="col-log-2" style="padding: 1rem 1rem 1rem 3rem; text-align: center;">Age: </div>
+                    <div class="col-lg-5">
+                        <div class="form-group">              
                             <select class="form-control" id="a-age" tabindex="-98">
-                                <option>Age</option>
                                 <option >&lt;18</option>
-                                <option >18-40</option>
+                                <option selected>18-40</option>
                                 <option>41-60</option>
                                 <option>61+</option>
                             </select>

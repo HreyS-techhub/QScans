@@ -1235,6 +1235,7 @@
 }
 .ion-earth:before {
   content: "\ea92";
+  color: #dc2932;
 }
 .ion-earth-outline:before {
   content: "\ea93";

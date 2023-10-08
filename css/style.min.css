@@ -17,7 +17,7 @@ body {
 }
 
 a {
-    color: #427cc5
+    color: #fff;
 }
 
 a:active:hover, a:focus, a:hover {
@@ -1529,7 +1529,7 @@ hr.hr-light {
 .header-1 .emergency .number {
     color: #fff;
     display: inline-block;
-    font-weight: 600
+    font-weight: 600;
 }
 
 .header-1 .emergency .sub-text {
@@ -1714,9 +1714,9 @@ hr.hr-light {
 }
 
 .icon-primary {
-    background-color: #427cc5;
+    background-color: #000;
     color: #fff;
-    border-color: #427cc5
+    border-color: #000
 }
 
 .icon-outline-primary {
@@ -2079,7 +2079,7 @@ p>.icon-left, p>.icon-right {
 }
 
 .department-box-4:hover .dep-icon {
-    background-color: #427cc5;
+    background-color: #000000;
     color: #fff
 }
 
@@ -4495,7 +4495,6 @@ footer.footer-2 hr {
         padding: .8125rem 1rem;
         width: auto
     }
-
     .event-box-2 {
         display: flex
     }

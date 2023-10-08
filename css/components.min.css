@@ -257,12 +257,12 @@ legend {
 }
 
 .header-1 .navbar .navbar-nav .nav-item:hover>a {
-    color: #427cc5
+    color:#dc2932
 }
 
 .header-1 .navbar .navbar-nav .nav-item.active>a, .header-1 .navbar .navbar-nav .nav-item.active>a:focus, .header-1 .navbar .navbar-nav .nav-item.active>a:hover {
     background-color: transparent;
-    color: #427cc5
+    color:#dc2932
 }
 
 .header-1 .navbar li>.sub-menu {
@@ -436,13 +436,13 @@ button:focus {
 }
 
 .btn-primary.focus, .btn-primary:active:hover, .btn-primary:focus, .btn-primary:hover {
-    background-color: #2198ec;
-    border-color: #2198ec
+    background-color: #060a0e;
+    border-color: #060a0e
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active {
-    background-color: #1e5ead;
-    border-color: #1e5ead
+    background-color: #060a0e;
+    border-color: #060a0e
 }
 
 .btn-secondary, .btn-secondary.disabled, .btn-secondary:disabled {
@@ -486,8 +486,8 @@ button:focus {
 }
 
 .btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active {
-    background-color: #0eb7ea;
-    border-color: #0eb7ea
+    background-color: #060a0e;
+    border-color: #060a0e
 }
 
 .btn-warning, .btn-warning.disabled, .btn-warning:disabled {
@@ -1677,7 +1677,7 @@ input[type="submit"]:hover {
         left: 50%;
         height: 3px;
         width: 0;
-        background-color: #427cc5;
+        background-color: #dc2932 ;
         transform: translateX(-50%);
         transition: 350ms ease all
     }

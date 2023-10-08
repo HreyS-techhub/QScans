@@ -312,16 +312,6 @@ legend {
     position: relative
 }
 
-.header-1 .navbar .has-menu:after {
-    content: "\e902";
-    font-family: Ionicons;
-    color: rgba(0, 0, 0, .35);
-    position: absolute;
-    right: .625rem;
-    top: .625rem;
-    font-size: 1.25rem
-}
-
 .header-1 .navbar .has-menu.open-menu>.mega-menu, .header-1 .navbar .has-menu.open-menu>.sub-menu {
     display: block;
     opacity: 1;
@@ -332,11 +322,6 @@ legend {
 
 .header-1 .navbar .sub-menu .has-menu:after {
     top: 3px
-}
-
-.header-1 .navbar .has-menu.open-menu:after {
-    content: "\ecca";
-    color: #427cc5
 }
 
 .header-1 .navbar .menu-items>li>a {

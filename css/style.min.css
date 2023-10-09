@@ -126,8 +126,12 @@ a:active:hover, a:focus, a:hover {
 	opacity: 1;
 }
 .login-popup .box{
+    width: 70%;
+    height: 250px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: #64676d 3px 3px 10px -1px;
 	background-color:#ffffff;
-	width: 750px;
 	position: absolute;
 	left: 50%;
 	top:50%;

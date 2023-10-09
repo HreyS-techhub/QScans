@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+.modified_font_family{
+    font-family:'Dancing Script'; font-size: 2.5rem;
+}
+
+
 body, html {
     height: 100%;
     width: 100%;
@@ -58,8 +65,9 @@ a:active:hover, a:focus, a:hover {
 }
 
 .heading {
-    letter-spacing: -1px
+    letter-spacing: -1px;
 }
+
 
 .heading-block {
     position: relative;
@@ -2831,7 +2839,11 @@ p>.icon-left, p>.icon-right {
 }
 
 .testimonial-1 .testimonial-author {
-    margin-top: 1.875rem
+    margin-top: 1.875rem;
+}
+.testimonial-1 .testimonial-author span{
+    background-color: white;
+    border-radius: 3px;
 }
 
 .testimonial-1 .testimonial-author .heading {
@@ -2868,7 +2880,7 @@ p>.icon-left, p>.icon-right {
 .testimonial-1 .slider-nav .icon-next:hover, .testimonial-1 .slider-nav .icon-prev:hover {
     background-color: #427cc5;
     border-color: #427cc5;
-    color: #fff
+    color: #000;
 }
 
 .testimonial-1 .slider-nav .slick-center {
@@ -2899,16 +2911,19 @@ p>.icon-left, p>.icon-right {
 }
 
 .testimonial-1.slider-light .testimonial-author .heading {
-    color: #fff
+    color: #000;
 }
 
 .testimonial-1.slider-light .testimonial-text {
-    color: #fff
+    color: #000;
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 1rem;
 }
 
 .testimonial-1.slider-light .slider-nav .icon-next, .testimonial-1.slider-light .slider-nav .icon-prev {
-    border-color: #fff;
-    color: #fff
+    border-color: #000;
+    color: #000;
 }
 
 .testimonial-2 {
@@ -2937,11 +2952,12 @@ p>.icon-left, p>.icon-right {
 .testimonial-2 .testimonial-author {
     margin-top: 1.563rem;
     display: flex;
-    align-items: center
+    align-items: center;
+
 }
 
 .testimonial-2 .testimonial-author .heading {
-    margin-bottom: .313rem
+    margin-bottom: .313rem;
 }
 
 .testimonial-2 .slider-nav {

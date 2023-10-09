@@ -418,6 +418,7 @@ button:focus {
 .btn-primary, .btn-primary.disabled, .btn-primary:disabled {
     background-color: #dc2932;
     border-color: #dc2932;
+    border-radius: 0.4rem;
 }
 
 .btn-primary.focus, .btn-primary:active:hover, .btn-primary:focus, .btn-primary:hover {

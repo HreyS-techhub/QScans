@@ -249,7 +249,7 @@ a:active:hover, a:focus, a:hover {
         max-width: 100%;
 	}
     .testimonial-image{
-        background-image:url('../images/gallery/test2.JPG');
+        background-image:url('../images/gallery/test2.jpg');
         background-size:cover; padding: 2%;
     }
 }

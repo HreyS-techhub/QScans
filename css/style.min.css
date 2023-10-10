@@ -231,6 +231,11 @@ a:active:hover, a:focus, a:hover {
 	cursor: pointer;
 }
 
+.testimonial-image{
+    background-image:url('../images/gallery/test.JPG');
+    background-size:cover; padding: 2%;
+}
+
 /*responsive*/
 @media(max-width: 767px){
 	.login-popup .box{
@@ -243,6 +248,10 @@ a:active:hover, a:focus, a:hover {
 		flex: 0 0 100%;
         max-width: 100%;
 	}
+    .testimonial-image{
+        background-image:url('../images/gallery/test2.JPG');
+        background-size:cover; padding: 2%;
+    }
 }
 
 /*  */

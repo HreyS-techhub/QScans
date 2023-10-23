@@ -1486,14 +1486,14 @@ a.badge-dark:focus, a.badge-dark:hover {
 
 .modal .close {
     position: absolute;
-    top: -1.875rem;
     right: 0;
-    color: #fff;
+    color: #000;
     font-size: 1.875rem;
     text-shadow: none;
     opacity: .75;
     z-index: 2;
-    transition: 350ms ease all
+    transition: 350ms ease all;
+    background-color: red;
 }
 
 .modal .close:hover {
@@ -1748,9 +1748,5 @@ input[type="submit"]:hover {
 
     .tabs-3 .nav-tabs .nav-item {
         margin: 0 2rem
-    }
-
-    .modal .close {
-        right: -1.875rem
     }
 }

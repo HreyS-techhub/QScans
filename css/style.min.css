@@ -107,6 +107,14 @@ a:active:hover, a:focus, a:hover {
 }
 
 
+
+.stick {
+    position: fixed !important;
+    top: 0;
+    box-shadow: 0 .063rem .25rem rgba(0, 0, 0, .3);
+    animation: slideHeader 750ms ease-out
+}
+
 /* pop up */
 
 .login-popup{
@@ -822,7 +830,7 @@ blockquote img.quotes {
 }
 
 .p-60 {
-    padding: 3.75rem !important
+    padding: 3.75rem !important;
 }
 
 .p-70 {
@@ -4547,13 +4555,6 @@ footer.footer-2 hr {
         display: inline-block
     }
 
-    .stick {
-        position: fixed !important;
-        top: 0;
-        width: 100%;
-        box-shadow: 0 .063rem .25rem rgba(0, 0, 0, .3);
-        animation: slideHeader 750ms ease-out
-    }
 
     @keyframes slideHeader {
         0% {

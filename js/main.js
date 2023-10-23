@@ -42,4 +42,3 @@ import {insertQueryData,insertAppointmentData} from './firebase.js';
     }
   });
 
-
